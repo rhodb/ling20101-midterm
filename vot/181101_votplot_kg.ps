@@ -1,0 +1,275 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-BoldItalic
+%%+ font Symbol
+%%DocumentMedia: a4 595 841 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Landscape
+%%BoundingBox: 28 61 568 781
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB 595.00 0 translate 90 rotate gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Times-Roman
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Times-Bold
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Times-Italic
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Times-BoldItalic
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+119.98 101.08 750.70 508.60 cl
+1 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+473.01 241.95 2.70 c p1
+505.79 241.95 2.70 c p1
+530.80 241.95 2.70 c p1
+421.03 241.95 2.70 c p1
+540.44 241.95 2.70 c p1
+505.22 241.95 2.70 c p1
+467.16 241.95 2.70 c p1
+395.58 241.95 2.70 c p1
+500.68 241.95 2.70 c p1
+526.52 241.95 2.70 c p1
+496.70 241.95 2.70 c p1
+596.12 241.95 2.70 c p1
+514.88 241.95 2.70 c p1
+456.48 241.95 2.70 c p1
+451.35 241.95 2.70 c p1
+381.38 241.95 2.70 c p1
+558.05 241.95 2.70 c p1
+420.01 241.95 2.70 c p1
+505.22 241.95 2.70 c p1
+565.03 241.95 2.70 c p1
+638.48 241.95 2.70 c p1
+463.75 241.95 2.70 c p1
+495.05 241.95 2.70 c p1
+200.45 241.95 2.70 c p1
+490.45 241.95 2.70 c p1
+484.77 241.95 2.70 c p1
+504.08 241.95 2.70 c p1
+594.37 241.95 2.70 c p1
+551.40 241.95 2.70 c p1
+0 0 0 srgb
+299.06 367.73 2.70 c p1
+408.08 367.73 2.70 c p1
+429.01 367.73 2.70 c p1
+487.25 367.73 2.70 c p1
+358.08 367.73 2.70 c p1
+423.41 367.73 2.70 c p1
+514.23 367.73 2.70 c p1
+398.76 367.73 2.70 c p1
+221.17 367.73 2.70 c p1
+413.68 367.73 2.70 c p1
+392.34 367.73 2.70 c p1
+417.28 367.73 2.70 c p1
+393.31 367.73 2.70 c p1
+382.00 367.73 2.70 c p1
+370.58 367.73 2.70 c p1
+254.69 367.73 2.70 c p1
+727.34 367.73 2.70 c p1
+500.11 367.73 2.70 c p1
+143.34 367.73 2.70 c p1
+447.59 367.73 2.70 c p1
+519.14 367.73 2.70 c p1
+427.96 367.73 2.70 c p1
+403.41 367.73 2.70 c p1
+318.08 367.73 2.70 c p1
+475.68 367.73 2.70 c p1
+346.72 367.73 2.70 c p1
+554.08 367.73 2.70 c p1
+538.93 367.73 2.70 c p1
+391.39 367.73 2.70 c p1
+60.94 27.64 780.94 567.64 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+187.66 101.08 m
+511.28 0 l
+o
+np
+187.66 101.08 m
+0 -7.20 l
+o
+np
+272.87 101.08 m
+0 -7.20 l
+o
+np
+358.08 101.08 m
+0 -7.20 l
+o
+np
+443.30 101.08 m
+0 -7.20 l
+o
+np
+528.51 101.08 m
+0 -7.20 l
+o
+np
+613.73 101.08 m
+0 -7.20 l
+o
+np
+698.94 101.08 m
+0 -7.20 l
+o
+/Font1 findfont 12 s
+187.66 75.16 (-100) .5 0 t
+272.87 75.16 (-50) .5 0 t
+358.08 75.16 (0) .5 0 t
+443.30 75.16 (50) .5 0 t
+528.51 75.16 (100) .5 0 t
+613.73 75.16 (150) .5 0 t
+698.94 75.16 (200) .5 0 t
+np
+119.98 101.08 m
+630.72 0 l
+0 407.52 l
+-630.72 0 l
+0 -407.52 l
+o
+60.94 27.64 780.94 567.64 cl
+/Font2 findfont 14 s
+0 0 0 srgb
+364.18 542.03 (Plot of V) 0 ta
+-0.630 (O) tb
+-0.560 (T f) tb
+-0.350 (or k and g) tb gr
+435.34 524.75 (  means = \(78, 32\) ms) .5 0 t
+/Font1 findfont 12 s
+410.52 46.36 (V) 0 ta
+-0.480 (O) tb
+-0.480 (T \(ms\)) tb gr
+73.90 304.84 (Stop) .5 90 t
+60.94 27.64 780.94 567.64 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+119.98 241.95 m
+0 125.78 l
+o
+np
+119.98 241.95 m
+-7.20 0 l
+o
+np
+119.98 367.73 m
+-7.20 0 l
+o
+/Font1 findfont 12 s
+102.70 241.95 (k) .5 90 t
+102.70 367.73 (g) .5 90 t
+119.98 101.08 750.70 508.60 cl
+1 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+490.84 101.08 m
+0 407.52 l
+o
+0 0 0 srgb
+np
+412.30 101.08 m
+0 407.52 l
+o
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
